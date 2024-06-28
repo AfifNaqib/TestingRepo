@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afif Naqib's CV</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .section-title {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        .bg-light-gray {
+            background-color: #f8f9fa;
+        }
+
+        .list-group-item {
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.linkedin.com/in/afif-naqib" target="_blank">Muhammad Afif
+                Naqib</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#career-objective">Career Objective</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#awards">Awards</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div id="header" class="row align-items-center mb-4">
+            <div class="col-md-4 text-center">
+                <img src="data:image/jpeg;base64,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"
+                    alt="My Profile Picture" class="profile-img mb-3">
+            </div>
+            <div class="col-md-8">
+                <h1 class="display-4 mb-0">Muhammad Afif Naqib</h1>
+                <p class="lead mb-0"><a href="mailto:m.afifnaqib@gmail.com">m.afifnaqib@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div id="career-objective" class="mb-5">
+            <h2 class="h3 section-title"><b>Career Objective</b></h2>
+            <p>Degree Graduate of Netcentric Computing Program with a strong academic record and hands-on experience in
+                front-end development and PHP Laravel. Seeking a Software Development Internship to apply my skills in
+                software design and testing, and to contribute to innovative projects. Enthusiastic about leveraging my
+                expertise and passion for coding to add value to the team.</p>
+        </div>
+
+        <div id="skills" class="mb-5">
+            <h2 class="h3 section-title"><b>Skills</b></h2>
+            <ul class="list-group">
+                <li class="list-group-item">Programming Languages: JavaScript, HTML, CSS</li>
+                <li class="list-group-item">Frameworks: Laravel</li>
+                <li class="list-group-item">Tools: GitHub</li>
+            </ul>
+        </div>
+
+        <div id="experience" class="mb-5">
+            <h2 class="h3 section-title"><b>Experience</b></h2>
+            <div class="card bg-light-gray mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Intern</h5>
+                    <p class="card-text">Wahdah Technologies</p>
+                    <p class="card-text">March 2024 - June 2024</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="education" class="mb-5">
+            <h2 class="h3 section-title"><b>Education</b></h2>
+            <div class="card bg-light-gray mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Bachelor of Computer Science (HONS.) Netcentric Computing</h5>
+                    <p class="card-text">Universiti Teknologi MARA</p>
+                    <p class="card-text">CGPA: 3.64</p>
+                    <p class="card-text">2022 - 2024</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="awards" class="mb-5">
+            <h2 class="h3 section-title"><b>Awards</b></h2>
+            <ul class="list-group">
+                <li class="list-group-item">Dean's List (2022, 2024)</li>
+                <li class="list-group-item">rAKSASA CTF 2023 5th place (2023)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
